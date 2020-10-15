@@ -22,7 +22,6 @@ class App extends Component {
 
   filterBagels = (bagels) => {
     let goodBagels = bagels.filter(bagel => bagel.rating !== null)
-    console.log(goodBagels)
     this.setState({bagels: goodBagels})
   }
 
